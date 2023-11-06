@@ -1,0 +1,19 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: #343a40;
+    overflow-y: scroll;
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      overflow-y: hidden;
+    }
+  }
+  
